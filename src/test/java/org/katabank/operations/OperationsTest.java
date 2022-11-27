@@ -24,6 +24,7 @@ class OperationsTest {
         BankException ex = assertThrows(BankException.class, () -> Operations.depot(new BigDecimal("-11.11"), account));
         assertThat(ex.getMessage()).isEqualTo("Le montant doit être plus que 0 et ne doit pas être null");
     }
+
     @Test
     @DisplayName("when depot a negative amount, then it shall throws a BankException")
     void testDepotNegativeAmount() {
@@ -123,6 +124,7 @@ class OperationsTest {
         assertThat(statement.getTimestamp()).isNotNull();
 
     }
+
     @Test
     @DisplayName("when withdraw a negative amount, then the balance shall increase and add a new line of statement")
     void testWithdrawNegativeAmount() {

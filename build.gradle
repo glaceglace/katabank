@@ -6,6 +6,10 @@ application {
     mainClassName = "org.katabank.Entry"
 }
 
+run {
+    standardInput = System.in
+}
+
 group 'org.katabank'
 version '1.0-SNAPSHOT'
 
