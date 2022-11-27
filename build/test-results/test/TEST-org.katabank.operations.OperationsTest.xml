@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.katabank.operations.OperationsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-11-27T10:48:03" hostname="DESKTOP-11U7IKD" time="0.113">
+  <properties/>
+  <testcase name="when depot a positive amount, then the balance shall increase and add a new line of statement" classname="org.katabank.operations.OperationsTest" time="0.064"/>
+  <testcase name="when depot a 0 amount, then it shall throws a BankException" classname="org.katabank.operations.OperationsTest" time="0.008"/>
+  <testcase name="when withdraw multiple positive amount, then the balance shall decrease and add same number of line of statement" classname="org.katabank.operations.OperationsTest" time="0.001"/>
+  <testcase name="when depot multiple positive amount, then the balance shall increase and add same number of line of statement" classname="org.katabank.operations.OperationsTest" time="0.03"/>
+  <testcase name="when depot a null amount, then it shall throws a BankException" classname="org.katabank.operations.OperationsTest" time="0.001"/>
+  <testcase name="when withdraw a null amount, then it shall throws a BankException" classname="org.katabank.operations.OperationsTest" time="0.002"/>
+  <testcase name="when print a null account, then it shall throws a BankException" classname="org.katabank.operations.OperationsTest" time="0.001"/>
+  <testcase name="when withdraw a positive amount, then the balance shall increase and add a new line of statement" classname="org.katabank.operations.OperationsTest" time="0.001"/>
+  <testcase name="when withdraw a negative amount, then the balance shall increase and add a new line of statement" classname="org.katabank.operations.OperationsTest" time="0.0"/>
+  <testcase name="when withdraw a 0 amount, then it shall throws a BankException" classname="org.katabank.operations.OperationsTest" time="0.0"/>
+  <testcase name="when depot a negative amount, then it shall throws a BankException" classname="org.katabank.operations.OperationsTest" time="0.001"/>
+  <system-out><![CDATA[DEPOT	Avant: 0.00	 Montant: 11.11	AprÃ¨s: 11.11	Temps: 2022-11-27T11:48:04
+DEPOT	Avant: 11.11	 Montant: 22.22	AprÃ¨s: 33.33	Temps: 2022-11-27T11:48:04
+DEPOT	Avant: 33.33	 Montant: 33.33	AprÃ¨s: 66.66	Temps: 2022-11-27T11:48:04
+Sold: 66.66
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

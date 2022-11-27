@@ -1,0 +1,4 @@
+org/katabank/operations/OperationsTest.java
+ org.katabank.operations.OperationsTest
+org/katabank/operations/OperationDispatcherTest.java
+ org.katabank.operations.OperationDispatcherTest

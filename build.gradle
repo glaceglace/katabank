@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id "application"
+}
+application {
+    mainClassName = "org.katabank.Entry"
+}
+
+group 'org.katabank'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.40.0.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.23.1'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '4.9.0'
+}
+
+test {
+    useJUnitPlatform()
+}

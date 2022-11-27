@@ -1,0 +1,14 @@
+org/katabank/Entry.java
+ org.katabank.Entry
+org/katabank/operations/Operations.java
+ org.katabank.operations.Operations
+org/katabank/enums/ClientAction.java
+ org.katabank.enums.ClientAction
+org/katabank/models/Statement.java
+ org.katabank.models.Statement
+org/katabank/models/Account.java
+ org.katabank.models.Account
+org/katabank/exceptions/BankException.java
+ org.katabank.exceptions.BankException
+org/katabank/operations/OperationDispatcher.java
+ org.katabank.operations.OperationDispatcher

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.katabank.operations.OperationDispatcherTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-27T10:48:03" hostname="DESKTOP-11U7IKD" time="0.802">
+  <properties/>
+  <testcase name="when operation is print then it shall deposit" classname="org.katabank.operations.OperationDispatcherTest" time="0.794"/>
+  <testcase name="when operation is withdraw then it shall deposit" classname="org.katabank.operations.OperationDispatcherTest" time="0.004"/>
+  <testcase name="when operation is deposit then it shall deposit" classname="org.katabank.operations.OperationDispatcherTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
